@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp32"
+                android:layout_margin="@dimen/dp16"
+                android:hint="@string/first_name_hint" />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp32"
+                android:layout_margin="@dimen/dp16"
+                android:hint="@string/last_name_hint"
+                android:labelFor="@id/lastNameId"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp32"
+                android:layout_margin="@dimen/dp16"
+                android:hint="@string/city_hint"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp32"
+                android:layout_margin="@dimen/dp16"
+                android:hint="@string/mob_hint"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/dp8"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/firstNameId"
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="@dimen/dp220"
+                android:layout_height="@dimen/dp32"
+                android:layout_margin="@dimen/dp16"/>
+            <EditText
+                android:id="@+id/lastNameId"
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="@dimen/dp220"
+                android:layout_height="@dimen/dp32"
+                android:layout_margin="@dimen/dp16"/>
+            <EditText
+                android:id="@+id/cityId"
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="@dimen/dp220"
+                android:layout_height="@dimen/dp32"
+                android:layout_margin="@dimen/dp16"/>
+            <EditText
+                android:id="@+id/mobId"
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="@dimen/dp220"
+                android:layout_height="@dimen/dp32"
+                android:layout_margin="@dimen/dp16"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginLeft="@dimen/dp16"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/resetButtonId"
+            android:text="@string/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp16"/>
+
+        <Button
+            android:id="@+id/OkButtonId"
+            android:text="@string/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp16"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

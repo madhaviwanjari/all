@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">List</string>
+    <string name="user_name_hint">User Name</string>
+    <string name="password_hint">Password</string>
+    <string name="city_hint">City</string>
+    <string name="mob_hint">Mob. Number</string>
+    <string name="reset">Reset</string>
+    <string name="resetLogin">Reset</string>
+    <string name="login">Login</string>
+    <string name="ok">OK</string>
+    <string name="reg">Register</string>
+</resources>
